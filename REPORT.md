@@ -16,7 +16,8 @@ Kết quả huấn luyện mô hình LightGBM trên tập dữ liệu Credit Car
 ### 3.1 Kết quả chạy Benchmark trên Terminal
 ![Terminal Output](1_terminal_output.png)
 
-### 3.2 Hóa đơn AWS (Cost Explorer) sau 1 giờ chạy
-![AWS Billing](2_aws_billing.png)
+### 3.2 Danh sách máy ảo EC2 đã triển khai thành công
+![EC2 Instances](2_ec2_instances.png)
 
-
+### 3.3 Hóa đơn AWS (Billing & Cost Explorer)
+![AWS Billing](3_aws_billing.png)
