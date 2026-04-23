@@ -120,7 +120,7 @@ gpu_private_ip = "10.0.1x.x"
 Thay thế URL của ALB bạn nhận được vào lệnh dưới đây và chạy thử:
 
 ```bash
-curl -X POST http://<THAY_BẰNG_ALB_DNS_NAME_CỦA_BẠN>/v1/chat/completions \
+curl -X POST http://ai-inference-alb-2d443804-2115507758.us-east-1.elb.amazonaws.com/v1/completions \
   -H "Content-Type: application/json" \
   -d '{
     "model": "google/gemma-4-E2B-it",
